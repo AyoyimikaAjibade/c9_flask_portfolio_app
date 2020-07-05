@@ -64,7 +64,7 @@ hr.star-primary:after {
   color: #2C3E50;
 }
 .img-centered {
-  margin: 0 auto;
+  margin-left: auto;
 }
 header {
   text-align: center;
@@ -76,8 +76,10 @@ header .container {
   padding-bottom: 50px;
 }
 header img {
-  display: block;
-  margin: 0 auto 20px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-right: auto;
 }
 header .intro-text .name {
   display: block;
